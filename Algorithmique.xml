@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <AutoComplete language="Algorithmique">
+        <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar="_" />
+        <KeyWord name="A" />
+        <KeyWord name="ABS" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="AFFICHER" func="yes">
+            <Overload retVal="">
+                <Param name="Tableau" />
+                <Param name="taille" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ALEATOIRE" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ALGORITHME" />
+        <KeyWord name="ALLANT" />
+        <KeyWord name="ALORS" />
+        <KeyWord name="ALÉATOIRE" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="AND" />
+        <KeyWord name="ARRONDI" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Abs" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Afficher" func="yes">
+            <Overload retVal="">
+                <Param name="Tableau" />
+                <Param name="taille" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Aleatoire" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Algorithme" />
+        <KeyWord name="Allant" />
+        <KeyWord name="Alors" />
+        <KeyWord name="Aléatoire" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="And" />
+        <KeyWord name="Arrondi" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="BOOLEEN" />
+        <KeyWord name="BOOLEENS" />
+        <KeyWord name="BOOLÉEN" />
+        <KeyWord name="BOOLÉENS" />
+        <KeyWord name="Booleen" />
+        <KeyWord name="Booleens" />
+        <KeyWord name="Booléen" />
+        <KeyWord name="Booléens" />
+        <KeyWord name="CARACTERE" />
+        <KeyWord name="CARACTERES" />
+        <KeyWord name="CARACTÈRE" />
+        <KeyWord name="CARACTÈRES" />
+        <KeyWord name="CARRE" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="CARRÉ" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="CAS" />
+        <KeyWord name="CHAINE" />
+        <KeyWord name="CHAINES" />
+        <KeyWord name="CHAÎNE" />
+        <KeyWord name="CHAÎNES" />
+        <KeyWord name="CONSTANTE" />
+        <KeyWord name="CONSTANTES" />
+        <KeyWord name="COS" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Caractere" />
+        <KeyWord name="Caracteres" />
+        <KeyWord name="Caractère" />
+        <KeyWord name="Caractères" />
+        <KeyWord name="Carre" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Carré" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Cas" />
+        <KeyWord name="Chaine" />
+        <KeyWord name="Chaines" />
+        <KeyWord name="Chaîne" />
+        <KeyWord name="Chaînes" />
+        <KeyWord name="Constante" />
+        <KeyWord name="Constantes" />
+        <KeyWord name="Cos" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="DE" />
+        <KeyWord name="DEBUT" />
+        <KeyWord name="DIV" />
+        <KeyWord name="De" />
+        <KeyWord name="Debut" />
+        <KeyWord name="Div" />
+        <KeyWord name="DÉBUT" />
+        <KeyWord name="Début" />
+        <KeyWord name="ECRIRE" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ENT" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ENTIER" />
+        <KeyWord name="ENTIERS" />
+        <KeyWord name="ET" />
+        <KeyWord name="EXP" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Ecrire" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Ent" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Entier" />
+        <KeyWord name="Entiers" />
+        <KeyWord name="Et" />
+        <KeyWord name="Exp" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="FAIRE" />
+        <KeyWord name="FALSE" />
+        <KeyWord name="FAUX" />
+        <KeyWord name="FIN" />
+        <KeyWord name="FINPOUR" />
+        <KeyWord name="FINSELON" />
+        <KeyWord name="FINSI" />
+        <KeyWord name="FINTANTQUE" />
+        <KeyWord name="FONCTION" />
+        <KeyWord name="Faire" />
+        <KeyWord name="False" />
+        <KeyWord name="Faux" />
+        <KeyWord name="Fin" />
+        <KeyWord name="FinPour" />
+        <KeyWord name="FinSelon" />
+        <KeyWord name="FinSi" />
+        <KeyWord name="FinTantQue" />
+        <KeyWord name="Fonction" />
+        <KeyWord name="JUSQU&apos;A" />
+        <KeyWord name="JUSQU&apos;À" />
+        <KeyWord name="JUSQUA" />
+        <KeyWord name="Jusqu&apos;a" />
+        <KeyWord name="Jusqu&apos;à" />
+        <KeyWord name="Jusqua" />
+        <KeyWord name="LIRE" func="yes">
+            <Overload retVal="">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="LN" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="LOG" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="LONGUEUR" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="chaine : CHAINE" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Lire" func="yes">
+            <Overload retVal="">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Ln" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Log" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Longueur" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="chaine : CHAINE" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="MATRICE" />
+        <KeyWord name="MATRICES" />
+        <KeyWord name="MAX" func="yes">
+            <Overload retVal="REEL">
+                <Param name="a : REEL" />
+                <Param name="b : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="MIN" func="yes">
+            <Overload retVal="REEL">
+                <Param name="a : REEL" />
+                <Param name="b : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="MOD" />
+        <KeyWord name="Matrice" />
+        <KeyWord name="Matrices" />
+        <KeyWord name="Max" func="yes">
+            <Overload retVal="REEL">
+                <Param name="a : REEL" />
+                <Param name="b : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Min" func="yes">
+            <Overload retVal="REEL">
+                <Param name="a : REEL" />
+                <Param name="b : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Mod" />
+        <KeyWord name="NIL" />
+        <KeyWord name="NON" />
+        <KeyWord name="NOT" />
+        <KeyWord name="NULL" />
+        <KeyWord name="Nil" />
+        <KeyWord name="Non" />
+        <KeyWord name="Not" />
+        <KeyWord name="Null" />
+        <KeyWord name="OR" />
+        <KeyWord name="OU" />
+        <KeyWord name="Or" />
+        <KeyWord name="Ou" />
+        <KeyWord name="PAS" />
+        <KeyWord name="PI" />
+        <KeyWord name="POUR" />
+        <KeyWord name="POW" func="yes">
+            <Overload retVal="REEL">
+                <Param name="base : REEL" />
+                <Param name="exposant : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="PROCEDURE" />
+        <KeyWord name="PROCÉDURE" />
+        <KeyWord name="PUISSANCE" func="yes">
+            <Overload retVal="REEL">
+                <Param name="base : REEL" />
+                <Param name="exposant : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Pas" />
+        <KeyWord name="Pi" />
+        <KeyWord name="Pour" />
+        <KeyWord name="Pow" func="yes">
+            <Overload retVal="REEL">
+                <Param name="base : REEL" />
+                <Param name="exposant : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Procedure" />
+        <KeyWord name="Procédure" />
+        <KeyWord name="Puissance" func="yes">
+            <Overload retVal="REEL">
+                <Param name="base : REEL" />
+                <Param name="exposant : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="RACINE" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="RANDOM" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="REEL" />
+        <KeyWord name="REELS" />
+        <KeyWord name="REMPLIR" func="yes">
+            <Overload retVal="">
+                <Param name="Tableau" />
+                <Param name="taille" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="REPETER" />
+        <KeyWord name="RETOURNE" />
+        <KeyWord name="RETOURNER" />
+        <KeyWord name="Racine" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Random" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Reel" />
+        <KeyWord name="Reels" />
+        <KeyWord name="Remplir" func="yes">
+            <Overload retVal="">
+                <Param name="Tableau" />
+                <Param name="taille" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Repeter" />
+        <KeyWord name="Retourne" />
+        <KeyWord name="Retourner" />
+        <KeyWord name="RÉEL" />
+        <KeyWord name="RÉELS" />
+        <KeyWord name="RÉPÉTER" />
+        <KeyWord name="Réel" />
+        <KeyWord name="Réels" />
+        <KeyWord name="Répéter" />
+        <KeyWord name="SAISIR" func="yes">
+            <Overload retVal="">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SELON" />
+        <KeyWord name="SI" />
+        <KeyWord name="SIN" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="SINON" />
+        <KeyWord name="SINONSI" />
+        <KeyWord name="SQRT" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Saisir" func="yes">
+            <Overload retVal="">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Selon" />
+        <KeyWord name="Si" />
+        <KeyWord name="Sin" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Sinon" />
+        <KeyWord name="SinonSi" />
+        <KeyWord name="Sqrt" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="TABLEAU" />
+        <KeyWord name="TABLEAUX" />
+        <KeyWord name="TAILLE" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="Tableau" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="TAN" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="TANTQUE" />
+        <KeyWord name="TEXTE" />
+        <KeyWord name="TRONC" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="TRUE" />
+        <KeyWord name="Tableau" />
+        <KeyWord name="Tableaux" />
+        <KeyWord name="Taille" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="Tableau" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Tan" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="TantQue" />
+        <KeyWord name="Texte" />
+        <KeyWord name="Tronc" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="True" />
+        <KeyWord name="VARIABLE" />
+        <KeyWord name="VARIABLES" />
+        <KeyWord name="VRAI" />
+        <KeyWord name="Variable" />
+        <KeyWord name="Variables" />
+        <KeyWord name="Vrai" />
+        <KeyWord name="XOR" />
+        <KeyWord name="Xor" />
+        <KeyWord name="a" />
+        <KeyWord name="abs" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="aff" />
+        <KeyWord name="afficher" func="yes">
+            <Overload retVal="">
+                <Param name="Tableau" />
+                <Param name="taille" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="aleatoire" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="algo" />
+        <KeyWord name="algorithme" />
+        <KeyWord name="allant" />
+        <KeyWord name="alors" />
+        <KeyWord name="aléatoire" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="and" />
+        <KeyWord name="arrondi" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="booleen" />
+        <KeyWord name="booleens" />
+        <KeyWord name="booléen" />
+        <KeyWord name="booléens" />
+        <KeyWord name="caractere" />
+        <KeyWord name="caracteres" />
+        <KeyWord name="caractère" />
+        <KeyWord name="caractères" />
+        <KeyWord name="carre" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="carré" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="cas" />
+        <KeyWord name="chaine" />
+        <KeyWord name="chaines" />
+        <KeyWord name="chaîne" />
+        <KeyWord name="chaînes" />
+        <KeyWord name="const" />
+        <KeyWord name="constante" />
+        <KeyWord name="constantes" />
+        <KeyWord name="cos" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="de" />
+        <KeyWord name="debut" />
+        <KeyWord name="dec" />
+        <KeyWord name="div" />
+        <KeyWord name="début" />
+        <KeyWord name="ecrire" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ent" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="entier" />
+        <KeyWord name="entiers" />
+        <KeyWord name="et" />
+        <KeyWord name="exp" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="faire" />
+        <KeyWord name="false" />
+        <KeyWord name="faux" />
+        <KeyWord name="fin" />
+        <KeyWord name="finpour" />
+        <KeyWord name="finselon" />
+        <KeyWord name="finsi" />
+        <KeyWord name="fintantque" />
+        <KeyWord name="fonction" />
+        <KeyWord name="func" />
+        <KeyWord name="inc" />
+        <KeyWord name="jusqu&apos;a" />
+        <KeyWord name="jusqu&apos;à" />
+        <KeyWord name="jusqua" />
+        <KeyWord name="lire" func="yes">
+            <Overload retVal="">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="ln" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="log" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="longueur" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="chaine : CHAINE" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="matrice" />
+        <KeyWord name="matrices" />
+        <KeyWord name="max" func="yes">
+            <Overload retVal="REEL">
+                <Param name="a : REEL" />
+                <Param name="b : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="min" func="yes">
+            <Overload retVal="REEL">
+                <Param name="a : REEL" />
+                <Param name="b : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="mod" />
+        <KeyWord name="nil" />
+        <KeyWord name="non" />
+        <KeyWord name="not" />
+        <KeyWord name="null" />
+        <KeyWord name="or" />
+        <KeyWord name="ou" />
+        <KeyWord name="pair" />
+        <KeyWord name="pas" />
+        <KeyWord name="pi" />
+        <KeyWord name="pour" />
+        <KeyWord name="pow" func="yes">
+            <Overload retVal="REEL">
+                <Param name="base : REEL" />
+                <Param name="exposant : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="proc" />
+        <KeyWord name="procedure" />
+        <KeyWord name="procédure" />
+        <KeyWord name="puissance" func="yes">
+            <Overload retVal="REEL">
+                <Param name="base : REEL" />
+                <Param name="exposant : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="racine" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="random" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="min : ENTIER" />
+                <Param name="max : ENTIER" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="reel" />
+        <KeyWord name="reels" />
+        <KeyWord name="remplir" func="yes">
+            <Overload retVal="">
+                <Param name="Tableau" />
+                <Param name="taille" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="rep" />
+        <KeyWord name="repeter" />
+        <KeyWord name="ret" />
+        <KeyWord name="retourne" />
+        <KeyWord name="retourner" />
+        <KeyWord name="réel" />
+        <KeyWord name="réels" />
+        <KeyWord name="répéter" />
+        <KeyWord name="saisir" func="yes">
+            <Overload retVal="">
+                <Param name="variable" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sel" />
+        <KeyWord name="selon" />
+        <KeyWord name="si" />
+        <KeyWord name="sin" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="sino" />
+        <KeyWord name="sinon" />
+        <KeyWord name="sinonsi" />
+        <KeyWord name="sqrt" func="yes">
+            <Overload retVal="REEL">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="tab" />
+        <KeyWord name="tab2" />
+        <KeyWord name="tableau" />
+        <KeyWord name="tableaux" />
+        <KeyWord name="taille" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="Tableau" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="tan" func="yes">
+            <Overload retVal="REEL">
+                <Param name="angle : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="tant" />
+        <KeyWord name="tantque" />
+        <KeyWord name="texte" />
+        <KeyWord name="tronc" func="yes">
+            <Overload retVal="ENTIER">
+                <Param name="x : REEL" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="true" />
+        <KeyWord name="var" />
+        <KeyWord name="variable" />
+        <KeyWord name="variables" />
+        <KeyWord name="vrai" />
+        <KeyWord name="xor" />
+        <KeyWord name="À" />
+        <KeyWord name="ÉCRIRE" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Écrire" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="à" />
+        <KeyWord name="écrire" func="yes">
+            <Overload retVal="">
+                <Param name="expression" />
+            </Overload>
+        </KeyWord>
+    </AutoComplete>
+</NotepadPlus>
