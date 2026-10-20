@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Algorithmique" version="3" kateversion="5.0" section="Sources" extensions="*.algo" mimetype="text/x-algo" casesensitive="false" author="" license="MIT">
+  <highlighting>
+    <list name="keywords1">
+      <item>ALGORITHME</item> <item>DEBUT</item> <item>FIN</item> <item>FAIRE</item>
+      <item>FONCTION</item> <item>PROCEDURE</item> <item>RETOURNE</item>
+      <item>VARIABLES</item> <item>VARIABLE</item> <item>CONSTANTE</item> <item>CONSTANTES</item>
+      <item>TABLEAU</item> <item>TABLEAUX</item> <item>MATRICE</item> <item>MATRICES</item>
+      <item>RETOURNER</item> <item>ALLANT</item> <item>DE</item> <item>A</item> <item>PAS</item>
+      <item>DÉBUT</item> <item>début</item>
+    </list>
+    <list name="keywords2">
+      <item>SI</item> <item>ALORS</item> <item>SINON</item> <item>SINONSI</item> <item>FINSI</item>
+      <item>SELON</item> <item>CAS</item> <item>FINSELON</item>
+      <item>POUR</item> <item>FINPOUR</item> <item>TANTQUE</item> <item>FINTANTQUE</item>
+      <item>REPETER</item> <item>JUSQUA</item> <item>FINTANT</item> <item>FINSEL</item>
+      <item>RÉPÉTER</item> <item>répéter</item> <item>JUSQU'À</item> <item>jusqu'à</item>
+    </list>
+    <list name="keywords3">
+      <item>ENTIER</item> <item>ENTIERS</item> <item>REEL</item> <item>REELS</item>
+      <item>CARACTERE</item> <item>CARACTERES</item> <item>CHAINE</item> <item>CHAINES</item>
+      <item>BOOLEEN</item> <item>BOOLEENS</item> <item>TEXTE</item>
+      <item>RÉEL</item> <item>RÉELS</item> <item>CARACTÈRE</item> <item>CARACTÈRES</item>
+      <item>CHAÎNE</item> <item>CHAÎNES</item> <item>BOOLÉEN</item> <item>BOOLÉENS</item>
+    </list>
+    <list name="keywords4">
+      <item>ECRIRE</item> <item>LIRE</item> <item>RANDOM</item> <item>ABS</item> <item>RACINE</item>
+      <item>SQRT</item> <item>CARRE</item> <item>PUISSANCE</item> <item>MIN</item> <item>MAX</item>
+      <item>ALEATOIRE</item> <item>TAILLE</item> <item>LONGUEUR</item> <item>AFFICHER</item>
+      <item>REMPLIR</item> <item>SAISIR</item> <item>POW</item> <item>ARRONDI</item> <item>TRONC</item>
+      <item>ENT</item> <item>COS</item> <item>SIN</item> <item>TAN</item> <item>EXP</item> <item>LN</item> <item>LOG</item>
+      <item>ÉCRIRE</item> <item>écrire</item> <item>CARRÉ</item> <item>carré</item>
+    </list>
+    <list name="keywords5">
+      <item>ET</item> <item>OU</item> <item>NON</item> <item>MOD</item> <item>DIV</item> <item>XOR</item>
+      <item>AND</item> <item>OR</item> <item>NOT</item>
+    </list>
+    <list name="keywords6">
+      <item>VRAI</item> <item>FAUX</item> <item>PI</item> <item>TRUE</item> <item>FALSE</item> <item>NULL</item> <item>NIL</item>
+    </list>
+    <list name="keywords7">
+      <item>algo</item> <item>si</item> <item>sino</item> <item>sinon</item> <item>sel</item> <item>pour</item>
+      <item>tant</item> <item>rep</item> <item>func</item> <item>proc</item> <item>var</item> <item>const</item>
+      <item>tab</item> <item>tab2</item> <item>ecrire</item> <item>lire</item> <item>ret</item> <item>aff</item>
+      <item>inc</item> <item>dec</item> <item>pair</item> <item>remplir</item> <item>afficher</item>
+    </list>
+
+    <contexts>
+      <context name="Normal" attribute="Normal Text" lineEndContext="#stay">
+        <DetectSpaces/>
+        <!-- Line comments -->
+        <RegExpr attribute="Comment" context="CommentLine" String="//" />
+        <!-- Block comments -->
+        <StringDetect attribute="Comment" context="CommentBlock" String="/*" />
+        <!-- Keywords BEFORE DetectIdentifier -->
+        <keyword attribute="Keyword1" context="#stay" String="keywords1" />
+        <keyword attribute="Keyword2" context="#stay" String="keywords2" />
+        <keyword attribute="Keyword3" context="#stay" String="keywords3" />
+        <keyword attribute="Keyword4" context="#stay" String="keywords4" />
+        <keyword attribute="Keyword5" context="#stay" String="keywords5" />
+        <keyword attribute="Keyword6" context="#stay" String="keywords6" />
+        <keyword attribute="Keyword7" context="#stay" String="keywords7" />
+        <!-- Consume identifiers LAST -->
+        <DetectIdentifier/>
+        <!-- Numbers -->
+        <Float attribute="Number" context="#stay" />
+        <Int attribute="Number" context="#stay" />
+        <!-- Operators -->
+        <AnyChar attribute="Operator" context="#stay" String="&lt;&gt;=&lt;&gt;=+-*/^&amp;:;,.()[]{}" />
+        <DetectChar attribute="Operator" context="#stay" char="←" />
+        <StringDetect attribute="Operator" context="#stay" String="&lt;--" />
+        <StringDetect attribute="Operator" context="#stay" String="&lt;-" />
+        <StringDetect attribute="Operator" context="#stay" String="!=" />
+        <!-- Strings -->
+        <DetectChar attribute="String" context="StringDQ" char="&quot;" />
+        <DetectChar attribute="String" context="StringSQ" char="'" />
+      </context>
+
+      <context name="CommentLine" attribute="Comment" lineEndContext="#pop">
+        <LineContinue attribute="Comment" context="#stay" />
+      </context>
+
+      <context name="CommentBlock" attribute="Comment" lineEndContext="#stay">
+        <StringDetect attribute="Comment" context="#pop" String="*/" />
+      </context>
+
+      <context name="StringDQ" attribute="String" lineEndContext="#pop">
+        <DetectChar attribute="String" context="#pop" char="&quot;" />
+        <DetectChar attribute="String" context="#stay" char="\" />
+      </context>
+
+      <context name="StringSQ" attribute="String" lineEndContext="#pop">
+        <DetectChar attribute="String" context="#pop" char="'" />
+        <DetectChar attribute="String" context="#stay" char="\" />
+      </context>
+    </contexts>
+
+    <itemDatas>
+      <itemData name="Normal Text"    defStyleNum="dsNormal"    color="#1E293B" />
+      <itemData name="Comment"        defStyleNum="dsComment"   color="#16A34A" italic="1" />
+      <itemData name="Number"         defStyleNum="dsDecVal"    color="#D9008F" bold="1" />
+      <itemData name="Operator"       defStyleNum="dsOperator"  color="#0F172A" bold="1" />
+      <itemData name="String"         defStyleNum="dsString"    color="#B45309" />
+      <itemData name="Keyword1"       defStyleNum="dsKeyword"      color="#0055FF" bold="1" />
+      <itemData name="Keyword2"       defStyleNum="dsControlFlow"  color="#DC2626" bold="1" italic="1" />
+      <itemData name="Keyword3"       defStyleNum="dsDataType"     color="#8A2BE2" bold="1" />
+      <itemData name="Keyword4"       defStyleNum="dsBuiltIn"      color="#00A854" bold="1" />
+      <itemData name="Keyword5"       defStyleNum="dsKeyword"      color="#FF5500" bold="1" />
+      <itemData name="Keyword6"       defStyleNum="dsConstant"     color="#0099FF" bold="1" />
+      <itemData name="Keyword7"       defStyleNum="dsKeyword"      color="#0055FF" bold="1" />
+    </itemDatas>
+  </highlighting>
+</language>
